@@ -1,0 +1,32 @@
+.login{
+    width: calc(100% - 60rem);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.login h2{
+    margin: 0;
+}
+.login img{
+    width: 2rem;
+}
+.login input{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    width: 92%;
+}
+.forget-pass{
+    display: flex;
+    color: #1DA1F2;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.forget-pass .items{
+    cursor: pointer;
+}

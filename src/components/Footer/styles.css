@@ -1,0 +1,13 @@
+.footer{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 1rem;
+    padding: .8rem .2rem;
+}
+.footer .footer-items{
+    font-size: .8rem;
+    font-weight: 500;
+}
